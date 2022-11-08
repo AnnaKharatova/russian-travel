@@ -4,7 +4,7 @@
     font-size: 16px;
     line-height: 1.12;
     color: #FFFFFF;
-    transition: color 0.1s linear;
+    transition: opacity 0.1s linear;
 }
 
 
@@ -16,5 +16,5 @@
 }
 
 .footer__link:hover {
-    color: #AAAAAA;
+    opacity: .8;;
 }
