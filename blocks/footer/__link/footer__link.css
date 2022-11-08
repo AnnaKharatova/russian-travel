@@ -1,0 +1,20 @@
+.footer__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    color: #FFFFFF;
+    transition: color 0.1s linear;
+}
+
+
+@media screen and (max-width: 650px) {
+    .footer__link {
+        font-size: 24px;
+        font-weight: 1;
+    }
+}
+
+.footer__link:hover {
+    color: #AAAAAA;
+}
