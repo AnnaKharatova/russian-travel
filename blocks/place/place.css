@@ -4,7 +4,7 @@
     gap: 48px 40px;
     grid-template-columns: 460px auto;
     grid-template-rows: repeat(2 1fr);
-    grid-template-areas: 
+    grid-template-areas:
     'place__title place__website'
     'place__image place__text';
     max-width: 984px;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .place {
         grid-template-columns: 340px auto;
         max-width: 93.5%;
@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .place {
         display: flex;
         flex-direction: column;
