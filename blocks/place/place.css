@@ -3,7 +3,7 @@
     display: grid;
     gap: 48px 40px;
     grid-template-columns: 460px auto;
-    grid-template-rows: repeat(2 1fr);
+    grid-template-rows: repeat(2, auto);
     grid-template-areas:
     'place__title place__website'
     'place__image place__text';
